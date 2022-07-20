@@ -254,8 +254,8 @@ header h1{
 
 
     .h-regular{
-        /* font-size: 4rem; */
-        top: 48%;
+        font-size: 3rem;
+        top: 36%;
         left: 50%;
     }
 
@@ -444,6 +444,49 @@ letter-spacing: 5px;
 margin: 10px 0 0 0;
 font-weight: normal;
 }
+
+ /* ------FAQ----- */
+ .box{
+    width: 90vw;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+ }
+ 
+ .box .heading{
+    background: linear-gradient(90deg, #eb76fd 0%, #695ce4 50%, #66f7f7 100%);;
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: "Rubik";
+ }
+ 
+ .faqs{
+    padding: 0px 20px 20px;
+ }
+ 
+ ::-webkit-details-marker{
+    float: right;
+    margin-top: 3px;
+ }
+ 
+ details{
+    background: #0a88dc50;
+    padding: 15px 25px;
+    border-radius: 7px;
+    margin-top: 20px;
+    /* font-family: "Rubik"; */
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+ }
+ 
+ details summary{
+    outline: none;
+ }
+/*------------ footer--------- */
 .demo-footer {
 padding: 60px 0;
 text-align: center;
