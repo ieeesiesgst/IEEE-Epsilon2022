@@ -36,21 +36,44 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    margin: 0 0.5em;
+    margin: 0 1em;
 }
 
 nav ul a{
     font-size: 1.2em;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 nav .container .menu-btn{
     display: none;
 }
 
+nav ul a:hover{
+    text-decoration: none;
+    color: white;
+    
+}
+
 .social-media a{
     font-size: 2em;
     z-index: -1;
+}
+
+.fa-instagram:hover{
+    color: #ec00f8;
+}
+
+.fa-twitter:hover{
+    color: aqua;
+}
+
+.fa-linkedin:hover{
+    color: blue;
+}
+
+.fa-youtube:hover{
+    color: red;
 }
 
 header{
