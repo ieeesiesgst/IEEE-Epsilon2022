@@ -514,6 +514,7 @@ font-weight: normal;
 .demo-footer {
 padding: 60px 0;
 text-align: center;
+font-size: 15px;
 }
 .demo-footer a {
 color: #999;
@@ -533,7 +534,7 @@ font-family: Cardo;
     color: #fff;
     padding: 100px 0 30px;
     border-top-left-radius: 125px;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 20px;
     text-decoration: none;
 }
@@ -691,10 +692,11 @@ footer .underline span{
 }
 
 
-.bottom-footer .tel1 .tel2{
+.bottom-footer a{
     
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
+
 
 
 
