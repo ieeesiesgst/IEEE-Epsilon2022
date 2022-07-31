@@ -26,10 +26,10 @@ body {
   /* background: #fff; */
   padding: 25px 30px;
   /* border-radius: 5px; */
-  background: rgba( 255, 255, 255, 0.45 );
+  background: rgba( 255, 255, 255, 0.15 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 20px );
-  -webkit-backdrop-filter: blur( 20px );
+  backdrop-filter: blur( 11px );
+  -webkit-backdrop-filter: blur( 11px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
@@ -81,12 +81,12 @@ form .user-details .input-box {
   font-size: 16px;
   border-bottom-width: 2px;
   transition: all 0.3s ease;
-  background: rgba( 255, 255, 255, 0.2 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 6px );
--webkit-backdrop-filter: blur( 6px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 8.5px );
+  -webkit-backdrop-filter: blur( 8.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 ::placeholder{
     color: #fff;
@@ -152,16 +152,16 @@ form .button input {
   font-weight: 500;
   border-radius: 5px;
   letter-spacing: 1px;
-  background-image: linear-gradient(to right, #144ea7, #4250c1, #714cd6, #a13ee5, #d412eb);
+  background-image: linear-gradient(to right, #30c9cd, #009abf, #006aa9, #003982, #20014d);
 }
 
 form .button input:hover {
-    background: rgba( 255, 255, 255, 0.7 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: rgba(255, 255, 255, 0.24);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.248);
     backdrop-filter: blur( 6px );
     -webkit-backdrop-filter: blur( 6px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.063);
     color: #000000;
 }
 
