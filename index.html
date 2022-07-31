@@ -24,6 +24,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
     />
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/nav.css">
     <link rel="stylesheet" href="./assets/about.css">
     <link rel="stylesheet" href="./assets/speakers.css">
     <link rel="stylesheet" href="./assets/timer.css">
@@ -38,17 +39,17 @@
     <!-- Navbar & Hero Section  -->
     <header>
         <!-- Navbar section  -->
-        <nav>
+        <!-- <nav>
             <div class="container">
                 <div class="menu">
-                    <ul class="social-media">
+                    <ul class="social-media"> -->
                         <!-- <li>
                             <a href="#" class="media-icon">
                                 <i class="fab fa-facebook"></i>
                             </a>
                         </li> -->
 
-                        <li>
+                        <!-- <li>
                             <a href="https://www.instagram.com/ieeesiesgst/?hl=en" class="media-icon">
                                 <i class="fab fa-instagram"></i>
                             </a>
@@ -102,8 +103,28 @@
                     <i class="fas fa-bars"></i>
                 </div>
             </div>
-        </nav>
-
+        </nav> -->
+        <nav class="nav">
+          <div class="container">
+              <div class="logo">
+                  <a href="#home"><img src="/assets/IEEE SIESGST_white.png"  alt=""></a>
+              </div>
+              <div id="mainListDiv" class="main_list">
+                  <ul class="navlinks">
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+              </div>
+              <span class="navTrigger">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+              </span>
+          </div>
+      </nav>
+  
         <!-- Hero Section  -->
         <div class="glass">
             <h1 class="h-glass">Epsilon</h1>
@@ -113,9 +134,7 @@
                   
                     <!-- --counter- -->
                     <section class="home" id="home" >
-                      <div class="col-4 btn">
-                        <a href="./form.html">Register</a>
-                      </div>
+
                       <div class="home__container bd-container bd-grid">
                           <div class="home__data">
                               <p id="timer" class="timerSec">
@@ -161,12 +180,14 @@
                       <div class="home__data">
                           <img src="./EPSILON 2021/image/home.png" alt="" class="home__img">
                       </div>
+                      <div class="col-4 btn">
+                        <a href="./form.html">REGISTER</a>
+                      </div>
                       </div>
                   </section>
                 </div>
             </div>
         </div>
-
         <div id="particles-js">
         <h1 class="h-regular">2022</h1>
       </div>
@@ -178,7 +199,7 @@
     </div>
     <div class="container about">
       <div class="row">
-        <div class="col-md">
+        <div class="col-md"><br>
           <div
             class="Synopsis-highlightLine five"
             style="transform: matrix(1, 0, 0, 1, 0, 0)"
@@ -187,14 +208,14 @@
             <p class="Synopsis-highlight">
               Epsilon is an Academic Convention wherein the invited Industry Experts will speak about their expertise in the field of Internet Spectrum.This time, we have got covered security over various domains like websites, 5G and IOT, everything from Blockchains to cybersecurity and many more. Our target is to get around this vast domain starting right from the genesis and pan it up to the conceptual level.
             </p>
-          </div>
+          </div><br>
           <div
             class="Synopsis-highlightLine five"
             style="transform: matrix(1, 0, 0, 1, 0, 0)"
           ></div>
         </div>
         <div class="col-md animated fadeInUp up-one">
-          <img class="img-fluid" src="./assets/about.jpg" alt="" />
+          <img class="img-fluid aboutimg" src="./assets/final logo.png" alt="" />
         </div>
       </div>
     </div>
@@ -274,49 +295,49 @@ Let's dive into the world of 5G and IoT
             </div>
             <div class="timeline">
               <div class="timeline-item" data-text="Day 1 IEEE Track">
-                <div class="timeline__content"><img class="timeline__img" src="./assets/Timeline/day1ieee.jpg" />
+                <div class="timeline__content"><img class="timeline__img" src="./assets/day1ieee.jpg" />
                   <h2 class="timeline__content-title">Security for the Blockchain Age</h2>
                   <p class="timeline__content-desc">The blockchain is a distributed database of records of all transactions that have been executed among users.Get to know more about blockchain by joining us!.</p>
                 </div>
               </div>
               <div class="timeline-item" data-text="Day 1 CS Track">
-                <div class="timeline__content"><img class="timeline__img" src="./assets/r.jpg"/>
+                <div class="timeline__content"><img class="timeline__img" src="./assets/day1cs.jpg"/>
                   <h2 class="timeline__content-title">The Insights of Cyberworld</h2>
                   <p class="timeline__content-desc">The world of Cyber Security revolves around the industry standard of confidentiality, integrity, and availability.Attend the webinar to get the insights of cyberworld.</p>
                 </div>
               </div>
               <div class="timeline-item" data-text="Day 1 MTTS Track">
-                <div class="timeline__content"><img class="timeline__img" src="./assets/y.jpg"/>
+                <div class="timeline__content"><img class="timeline__img" src="./assets/5g-network-smart-city-background-technology.jpg"/>
                   <h2 class="timeline__content-title">Elementary of 5G and IoT</h2>
                   <p class="timeline__content-desc">In 1905, Mustafa Kemal graduated from the War Academy in Istanbul with the rank of Staff Captain. Posted in Damascus, he started with several colleagues, a clandestinesociety called "Homeland and Freedom" to fight against the Sultan'sdespotism.</p>
                 </div>
               </div>
               <div class="timeline-item" data-text="Day 2 IEEE Track">
-                <div class="timeline__content"><img class="timeline__img" src="./assets/adventure-backpack-beach-214575.jpg"/>
+                <div class="timeline__content"><img class="timeline__img" src="./assets/1267714.jpg"/>
                   <h2 class="timeline__content-title"> SOLIDITY: The Backbone of Blockchain</h2>
                   <p class="timeline__content-desc">Get to know about smart contracts while building and deploying your own smart contract using Solidity and remix IDE.</p>
                 </div>
               </div>
               <div class="timeline-item" data-text="Day 2 CS Track">
-                <div class="timeline__content"><img class="timeline__img" src="./assets/azadeh-oveisi-1439715-unsplash.jpg"/>
+                <div class="timeline__content"><img class="timeline__img" src="./assets/Hackers.jpg"/>
                   <h2 class="timeline__content-title">21 Hacker Street</h2>
                   <p class="timeline__content-desc">Learn to use OSINT and step into the shoes of cybercrime investigation.</p>
                 </div>
               </div>
               <div class="timeline-item" data-text="Day 2 MTTS Track">
-                <div class="timeline__content"><img class="timeline__img" src="./assets/ui.jpg"/>
+                <div class="timeline__content"><img class="timeline__img" src="./assets/iotworlds_iot_hack.jpg"/>
                   <h2 class="timeline__content-title">IoT Hacking - Internet of Thieves</h2>
                   <p class="timeline__content-desc">Using RF technology and a basic antenna to intercept and infect the target IoT devices</p>
                 </div>
               </div>
               <div class="timeline-item" data-text="Day 3 IEEE Track">
-                <div class="timeline__content"><img class="timeline__img" src="./assets/uy.jpg"/>
+                <div class="timeline__content"><img class="timeline__img" src="./assets/Blockchain.jpg"/>
                   <h2 class="timeline__content-title">Blocks for a Better World: Blockchain</h2>
                   <p class="timeline__content-desc">Discussion on Cybersecurity benefits of blockchain and Smart Contracts and it’s future scope.</p>
                 </div>
               </div>
               <div class="timeline-item" data-text="Day 3 CS Track">
-                <div class="timeline__content"><img class="timeline__img" src="./assets/ju.jpg"/>
+                <div class="timeline__content"><img class="timeline__img" src="./assets/day3cs.png"/>
                   <h2 class="timeline__content-title">An Outlook on Cybersecurity</h2>
                   <p class="timeline__content-desc">
                     Deliberation on case studies on recent Cyber Security incidents.
@@ -324,7 +345,7 @@ Let's dive into the world of 5G and IoT
                 </div>
               </div>
               <div class="timeline-item" data-text="Day 3 MTTS Track">
-                <div class="timeline__content"><img class="timeline__img" src="./assets/kk.jpg"/>
+                <div class="timeline__content"><img class="timeline__img" src="./assets/iot.png"/>
                   <h2 class="timeline__content-title">Valiant Vulnerability</h2>
                   <p class="timeline__content-desc">Cogitation on testing standards in place for IoT devices and networks.</p>
                 </div>
@@ -343,16 +364,18 @@ Let's dive into the world of 5G and IoT
             <p class="heading">FAQs</p>
             <div class="faqs">
                <details>
-                  <summary>What is Lorem ipsum?</summary>
-                  <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <summary>What is Epsilon 2022?</summary>
+                  <p class="text">Epsilon is a three day academic convention organized under IEEE SIESGST from 3nd to the 15th of August, 2022.</p>
                </details>
                <details>
-                  <summary>What is Lorem ipsum?</summary>
-                  <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <summary>Is there any registration fee?</summary>
+                  <p class="text"> It is completely free for everyone. All it takes is your interest and time</p>
                </details>
                <details>
-                  <summary>What is Lorem ipsum?</summary>
-                  <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <summary>Why should I participate?</summary>
+                  <p class="text">Epsilon provides a great opportunity to learn the selected topics all the way from the beginner to expert level. Participants will receive certificates and best performers will receive prizes!
+
+                  </p>
                </details>
                </div>
               </div>
@@ -376,17 +399,32 @@ Let's dive into the world of 5G and IoT
         <div class="col">
           <h2 class="footer-subheading">Links<div class="underline"><span></span></div></h2>
           <ul>
-            <li><a href=""></a>Home</li>
-            <li><a href=""></a>About</li>
-            <li><a href=""></a>Topics</li>
-            <li><a href=""></a>Timeline</li>
-            <li><a href=""></a>Speakers</li>
+          
+          <li>
+            <a href="./speaker.html">Speakers</a>
+          </li>
+
+          <li>
+              <a href="#aboutus">About</a>
+          </li>
+
+          <li>
+            <a href="#timeline-section">Timeline</a>
+          </li>
+ 
+          <li>
+          <a href="#topic">Topics</a>
+          </li>
+
+          <li>
+              <a href="./form.html">Register</a>
+          </li>
           </ul>
         </div>
         <div class="col">
           <h2 class="footer-subheading">Reach us at<div class="underline"><span></span></div></h2>
           
-          <h4 class="emilid" data-wow-delay="0.2s">
+          <h4 class="emailid" data-wow-delay="0.2s">
             <span>
               <a href="mailto: ieee@siesgst.ac.in">
             ieee@siesgst.ac.in
@@ -396,7 +434,6 @@ Let's dive into the world of 5G and IoT
           <p class="tel1"><a href="tel:908923792">+91 908923792</a></p>
           
 
-
           <a class="tel2" href="tel:899023723">+91 899023723</a>
           <!-- <form action="">
             <i class="fa-solid fa-envelope"></i>
@@ -404,15 +441,39 @@ Let's dive into the world of 5G and IoT
             <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
           </form> -->
           <div class="social-icons">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-          </div>
+            <ul class="social-media">
+                  
+
+              <li>
+                  <a href="https://www.instagram.com/ieeesiesgst/?hl=en" class="media-icon">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+              </li>
+
+              <li>
+                  <a href="https://twitter.com/_ieeesiesgst" class="media-icon">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/ieee-gst/mycompany/" class="media-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com/c/IEEESIESGST" class="media-icon">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+
         </div>
       </div>
-      <hr class="footer-hr">
-      <p class="copyright">IEEE Tech Team © 2022 - All Rights Reserved</p>
-    </footer>
+    </div>
+    <hr class="footer-hr">
+    <p class="copyright">IEEE Tech Team © 2022 - All Rights Reserved</p>
+  </footer>
 
     
 
@@ -427,6 +488,30 @@ Let's dive into the world of 5G and IoT
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/d8478aab16.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+        $('.navTrigger').click(function () {
+      $(this).toggleClass('active');
+      console.log("Clicked menu");
+      $("#mainListDiv").toggleClass("show_list");
+      $("#mainListDiv").fadeIn();
+  
+  });
+    </script>
+
  
  <script>
     
