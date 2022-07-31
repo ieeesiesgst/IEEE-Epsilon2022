@@ -4,7 +4,7 @@ body nav {
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
-    font-size: 62.5%;
+    font-size: 58.5%;
     font-size: 10px;
 }
 /*-- Inspiration taken from abdo steif -->
@@ -68,11 +68,11 @@ body nav {
     text-decoration: none;
     color: #fff;
     line-height: 65px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .nav div.main_list ul li a:hover {
-    color: #ffffff;
+    color: #e69797;
 }
 
 
@@ -93,12 +93,27 @@ body nav {
 /* Media qurey section */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .container {
-        margin: 0;
+    .nav-container {
+        margin: 0; padding: 0;
+        margin-top: 10px;
     }
 }
 
 @media screen and (max-width:768px) {
+    /* .container {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    } */
+    .nav div.main_list ul li {
+        width: auto;
+        height: 65px;
+        padding: 0;
+        padding-right: 0rem;
+    }
+    
     .navTrigger {
         display: block;
     }
@@ -116,24 +131,26 @@ body nav {
     }
     .nav div.main_list ul {
         flex-direction: column;
-        width: 100%;
-        height: 100vh;
+        width: 100vw;
+        height: 50vh;
         right: 0;
         left: 0;
         bottom: 0;
-        background-color: rgba(17, 17, 17, 0);
+        background-color: rgba(48, 45, 45, 0.855);
         /*same background color of navbar*/
         background-position: center top;
     }
     .nav div.main_list ul li {
         width: 100%;
-        text-align: right;
+        padding-top: 20px;
+        /* text-align: right; */
     }
     .nav div.main_list ul li a {
         text-align: center;
         width: 100%;
-        font-size: 3rem;
+        font-size: 1.3rem;
         padding: 20px;
+            padding-right: 3rem;
     }
     .nav div.media_button {
         display: block;

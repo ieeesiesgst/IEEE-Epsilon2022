@@ -104,10 +104,21 @@ nav ul a:hover{
 
 header{
     height: 100vh;
-    background: url(./Artboard\ 1.png) center no-repeat fixed;
+    /* background: url(./Artboard\ 1.png) center no-repeat fixed; */
     background-size: cover;
     position: relative;
     overflow: hidden;
+}
+.back{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+    .back{
+        width: 100;
+    }
 }
 
 header h1{
@@ -136,7 +147,7 @@ header h1{
 }
 
 .h-glass{
-    background: url(./card-background-article.png) center no-repeat fixed;
+    background-image: linear-gradient(to right, #30c9cd, #009abf);
     background-size: cover;
     color: transparent;
     background-clip: text;
@@ -230,7 +241,7 @@ header h1{
 
     nav .container{
         /* background-color: #fff; */
-        display: flex;
+        /* display: flex; */
         justify-content: space-between;
         align-items: flex-start;
     }
@@ -504,7 +515,7 @@ font-weight: normal;
  }
  
  .box .heading{
-    background: linear-gradient(90deg, #eb76fd 0%, #695ce4 50%, #66f7f7 100%);;
+    background: linear-gradient(to right, #30c9cd, #009abf, #006aa9, #003982, #20014d);
     border-radius: 7px 7px 0px 0px;
     padding: 10px;
     color: #fff;
@@ -554,7 +565,7 @@ font-family: Cardo;
     overflow: hidden;
     position: relative;
     bottom: 0;
-    background: linear-gradient(90deg, #eb76fd 0%, #695ce4 50%, #66f7f7 100%);
+    background: linear-gradient(to left, #30c9cd, #009abf, #006aa9, #003982, #20014d);
     /* background: linear-gradient(to right, #00093c, #2d0b00); */
     color: #fff;
     padding: 100px 0 30px;
@@ -587,7 +598,7 @@ font-family: Cardo;
 }
 
 .bottom-footer .logo{
-    width: 350px;
+    /* width: 350px; */
     margin-bottom: 65px;
 }
 

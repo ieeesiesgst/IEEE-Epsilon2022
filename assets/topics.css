@@ -13,18 +13,18 @@
   border: #56595a81 1px solid;
   border-radius: 10px;
   background: rgb(156, 122, 168);
-  background: linear-gradient(90deg, #eb76fd 0%, #695ce4 50%, #66f7f7 100%);
+  background-image: linear-gradient(to right, #30c9cd, #009abf, #006aa9, #003982, #20014d);
   color: aliceblue;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3); */
   text-align: center;
-  height: 90vh;
+  height: 70vh;
 }
 h4 {
   font-size: 30px;
 }
 .h1 {
   padding-bottom: 20px;
-  text-shadow: 2px 2px 4px #b3a9a9;
+  /* text-shadow: 2px 2px 4px #b3a9a9; */
 }
 .topics-heading {
   text-align: center;
