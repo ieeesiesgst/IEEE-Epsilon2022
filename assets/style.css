@@ -5,6 +5,30 @@
     /* overflow-x: hidden; */
 }
 
+body{
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 1.3rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #292929;
+}
+
+::-webkit-scrollbar-thumb{
+    height: 30px;
+    background-color: #f200ff;
+    border-radius: 1rem;
+    border: .5rem solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #66f7f7;
+}
+
 nav li{
     z-index: 999;
     position: relative;
