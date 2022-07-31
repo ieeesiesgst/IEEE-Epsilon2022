@@ -1,11 +1,11 @@
 .about{
-    margin-top: 5rem;
+    margin-top: 4rem;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
 }
 
 .h1{
-    padding-top: 100px;
+    padding-top: 70px;
     font-size: 3rem;
     text-shadow: 2px 2px 4px #b3a9a9;
     text-align: center;
@@ -24,3 +24,6 @@
     width: 100%;
     color: #000000;
   }
+.aboutimg{
+  
+}
