@@ -21,8 +21,20 @@ body nav {
     z-index: 999;
 }
 
+
 .nav div.logo {
-    float: left;}
+    float: left;
+    margin-left: -100px;
+}
+
+.nav .logo-1{
+    position: relative;
+    left: 400px;
+    /* padding-left: 80px; */
+    width: 10px;
+}
+
+
 
 .nav div.logo img{
     /* height: 90px; */
@@ -30,6 +42,13 @@ body nav {
     position: absolute;
     top: -14px;
     padding-top: 10px;
+}
+.nav div.logo-1 img{
+    /* height: 90px; */
+    width: 65px;
+    position: absolute;
+    top: -14px;
+    padding-top: 17px;
 }
 
 .nav div.logo a {
