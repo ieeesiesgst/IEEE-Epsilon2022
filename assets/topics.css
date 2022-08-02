@@ -37,6 +37,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: -2rem;
 }
 
 .cs-h4{
