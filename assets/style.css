@@ -20,14 +20,14 @@ body{
 
 ::-webkit-scrollbar-thumb{
     height: 30px;
-    background-color: #f200ff;
+    background-color: #00e5ff;
     border-radius: 1rem;
     border: .5rem solid transparent;
     background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background-color: #66f7f7;
+    background-color: #ffffff;
 }
 
 /* nav li{
@@ -492,8 +492,8 @@ position: relative;
 .timeline-header__title {
 color: #fff;
 font-size: 58px;
-font-family: 'Oswald', sans-serif;
-font-weight: normal;
+font-family: 'Poppins', sans-serif;
+font-weight:600;
 margin: 0;
 }
 .timeline-header__subtitle {
@@ -577,6 +577,7 @@ font-family: Cardo;
 
 .bottom-footer .footer-subheading{
     font-weight: 800;
+    font-size: x-large;
 }
 
 .bottom-footer .footer-row{
