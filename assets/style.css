@@ -375,7 +375,7 @@ color: #fff;
 margin: 0;
 font-size: 20px;
 box-sizing: border-box;
-color: rgba(255, 255, 255, .7);
+color: white;
 font-family: 'Roboto Condensed', sans-serif;
 font-weight: normal;
 line-height: 25px;
@@ -569,7 +569,7 @@ font-family: Cardo;
     overflow: hidden;
     position: relative;
     bottom: 0;
-    background: linear-gradient(to left, #30c9cd, #009abf, #006aa9, #003982, #20014d);
+    background: linear-gradient(to left, #30c9cd, #009abf, #006aa9, #003982);
     /* background: linear-gradient(to right, #00093c, #2d0b00); */
     color: #fff;
     padding: 100px 0 30px;
