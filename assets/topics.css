@@ -26,6 +26,22 @@ h4 {
   padding-bottom: 20px;
   /* text-shadow: 2px 2px 4px #b3a9a9; */
 }
+
+.ieee-h4{
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.cs-h4{
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.mtts-h4{
+  margin-top: 20px;
+  font-weight: 700;
+}
+
 .topics-heading {
   text-align: center;
   margin-top: 10vh;

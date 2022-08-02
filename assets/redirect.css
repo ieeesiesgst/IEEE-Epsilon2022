@@ -1,5 +1,7 @@
 body{
 
+    fontfamily:'poppins', sans-serif;
+
     display: flex;
     
       align-items:center;
