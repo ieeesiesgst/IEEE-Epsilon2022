@@ -126,6 +126,9 @@ body nav {
         margin-right: auto;
         margin-left: auto;
     } */
+    .nav div.logo img {
+        width: 70px;
+    }
     .nav div.main_list ul li {
         width: auto;
         height: 65px;
