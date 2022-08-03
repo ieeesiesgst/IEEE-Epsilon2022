@@ -25,7 +25,7 @@
                 </div>
                 <div class="input-box">
                     <span class="details">Email</span>
-                    <input type="email" placeholder="Enter your Email" name="Email" required>
+                    <input type="email" placeholder="Enter your Email" id="email" name="Email" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Phone Number</span>
@@ -33,15 +33,15 @@
                 </div>
                 <div class="input-box">
                     <span class="details">Country you reside in</span>
-                    <input type="text" placeholder="Enter your Country" name="Country">
+                    <input type="text" placeholder="Enter your Country" name="Country" required>
                 </div>
                 <div class="input-box">
                     <span class="details">College/University</span>
-                    <input type="text" placeholder="College/University" name="College/University">
+                    <input type="text" placeholder="College/University" name="College/University" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Profession</span>
-                    <input type="text" placeholder="Enter your profession" name="Profession">
+                    <input type="text" placeholder="Enter your profession" name="Profession" required>
                 </div>
             </div>
             <div class="gender-details">
@@ -78,5 +78,6 @@
             .catch(error => console.error('Error!', error.message))
         })
       </script>
+      <!-- Email Validation -->
 </body>
 </html>

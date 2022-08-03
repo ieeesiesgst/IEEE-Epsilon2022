@@ -517,6 +517,12 @@ font-weight: normal;
     border-radius: 7px;
     box-shadow: 1px 2px 4px rgba(0,0,0,.3);
  }
+ .text{
+    margin-top: 2rem;
+ }
+ .faq-que{
+    font-weight: 600;
+ }
  
  .box .heading{
     background: linear-gradient(to right, #30c9cd, #009abf, #006aa9, #003982, #20014d);

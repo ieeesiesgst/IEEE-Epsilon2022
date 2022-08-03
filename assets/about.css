@@ -7,9 +7,10 @@
 .h1{
     padding-top: 70px;
     font-size: 3rem;
-    text-shadow: 2px 2px 4px #b3a9a9;
+    text-shadow: 1px 1px 3px #b3a9a9;
     text-align: center;
     margin-top: 2.5rem;
+    font-weight: 700;
 }
 
 .Synopsis-highlightLine {
@@ -24,6 +25,3 @@
     width: 100%;
     color: #000000;
   }
-.aboutimg{
-  
-}
