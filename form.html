@@ -63,20 +63,22 @@
             <div class="button">
                 <!-- <input type="submit" name="submit" class="btnSubmit btn-block" value="SUBMIT" data-modal-target="modal1"/> -->
 
-                  <input type="submit" class="btnSubmit btn-block">
+                  <input onClick="javascript:window.close('','_parent_', '');" type="submit"  class="btnSubmit btn-block">
 
               </form>
     </div>
     <script>
+
+
         const scriptURL = 'https://script.google.com/macros/s/AKfycbxgV1TsHypDS5MPwXCMpnj60oKegRcskMQqA2Q34VENcHTRyK8Jsfs3W7wd6OkpO96V/exec'
         const form = document.forms['google-sheet']
       
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => alert("Succesfully Registered!"))
-            .catch(error => console.error('Error!', error.message))
-        })
+        // form.addEventListener('submit', e => {
+        //   e.preventDefault()
+        //   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        //     .then(response => alert("Succesfully Registered!"))
+        //     .catch(error => console.error('Error!', error.message))
+        // })
       </script>
       <!-- Email Validation -->
 </body>

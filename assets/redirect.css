@@ -19,8 +19,26 @@ body{
       background-size:cover;
       font-size: 30px;
       color: aliceblue;
+      
     
     }
+
+    .goback{
+      color: white;
+      top: 2.5rem;
+      left: 8rem;
+      position: absolute;
+      height: 5rem;
+      width: 10rem;
+      font-size: X-large;
+      font-weight: 700;
+      border-radius: 30px;
+      background-color: rgb(27, 119, 124);
+      box-shadow: 2px 2px #022321;
+      border: none;
+
+    }
+
     a{
         text-decoration: none;
         color: aliceblue;
