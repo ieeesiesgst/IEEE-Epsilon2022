@@ -7,7 +7,6 @@
 }
 
 .topics-content {
-  text-align: center;
   margin-top: 10%;
   padding: 30px;
   border: #56595a81 1px solid;
@@ -17,7 +16,8 @@
   color: aliceblue;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3); */
   text-align: center;
-  height: 90vh;
+  min-height: fit-content;
+  word-wrap: normal;
 }
 h4 {
   font-size: 30px;
@@ -29,7 +29,8 @@ h4 {
 
 
 .ieee-h4{
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   font-weight: 700;
 }
 
@@ -47,6 +48,7 @@ h4 {
 
 .mtts-h4{
   margin-top: 20px;
+  margin-bottom: 35px;
   font-weight: 700;
 }
 
