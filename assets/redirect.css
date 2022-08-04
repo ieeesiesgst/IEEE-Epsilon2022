@@ -36,7 +36,7 @@ body{
       background-color: rgb(27, 119, 124);
       box-shadow: 2px 2px #022321;
       border: none;
-
+      cursor: pointer;
     }
 
     a{
