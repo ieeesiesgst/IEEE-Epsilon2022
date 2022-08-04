@@ -7,7 +7,6 @@
 }
 
 .topics-content {
-  text-align: center;
   margin-top: 10%;
   padding: 30px;
   border: #56595a81 1px solid;
@@ -17,7 +16,7 @@
   color: aliceblue;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3); */
   text-align: center;
-  height: 95vh;
+  min-height: fit-content;
   word-wrap: normal;
 }
 h4 {
