@@ -16,8 +16,9 @@
   color: aliceblue;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3); */
   text-align: center;
-  min-height: fit-content;
-  word-wrap: normal;
+  height: 42rem;
+  /* min-height: fit-content;
+  word-wrap: normal; */
 }
 h4 {
   font-size: 30px;
@@ -57,7 +58,7 @@ h4 {
   margin-top: 10vh;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1200px){
   .topics-content{
     height: fit-content;
       }
